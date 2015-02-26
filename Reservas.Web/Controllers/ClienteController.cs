@@ -14,13 +14,13 @@ namespace Reservas.Web.Controllers
         // GET: /Cliente/
         public ActionResult Index()
         {
-            List<Cliente> clientes = Cliente.ObtenerClientes();
+            List<Cliente> clientes = ClienteRepositorio.ObtenerClientes();
             return View(clientes);
         }
 
         public ActionResult BuscarClientes(string nombre)
         {
-            List<Cliente> clientes = Cliente.ObtenerClientes();
+            List<Cliente> clientes = ClienteRepositorio.ObtenerClientes();
 
             // si no se indica el nombre del cliente listarlos todos.
             if (!string.IsNullOrEmpty(nombre))

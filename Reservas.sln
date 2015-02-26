@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.Web", "Reservas.We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.Web.Tests", "Reservas.Web.Tests\Reservas.Web.Tests.csproj", "{E1F84271-3A72-42B4-9E42-4D875AC4C6D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservas.RepositorioDBF", "Reservas.RepositorioDBF\Reservas.RepositorioDBF.csproj", "{2D014313-33FD-4EB1-9486-BF53DFCAB270}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E1F84271-3A72-42B4-9E42-4D875AC4C6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F84271-3A72-42B4-9E42-4D875AC4C6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F84271-3A72-42B4-9E42-4D875AC4C6D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D014313-33FD-4EB1-9486-BF53DFCAB270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D014313-33FD-4EB1-9486-BF53DFCAB270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D014313-33FD-4EB1-9486-BF53DFCAB270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D014313-33FD-4EB1-9486-BF53DFCAB270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
