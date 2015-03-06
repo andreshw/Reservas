@@ -42,3 +42,5 @@ E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web.Tests\bin\De
 E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web.Tests\obj\Debug\Reservas.Web.Tests.csprojResolveAssemblyReference.cache
 E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web.Tests\obj\Debug\Reservas.Web.Tests.dll
 E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web.Tests\obj\Debug\Reservas.Web.Tests.pdb
+E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web.Tests\bin\Debug\Reservas.RepositorioDBF.dll
+E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web.Tests\bin\Debug\Reservas.RepositorioDBF.pdb

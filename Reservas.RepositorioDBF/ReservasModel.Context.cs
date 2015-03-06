@@ -26,5 +26,6 @@ namespace Reservas.RepositorioDBF
         }
     
         public virtual DbSet<Clientes> Clientes { get; set; }
+        public virtual DbSet<Habitaciones> Habitaciones { get; set; }
     }
 }

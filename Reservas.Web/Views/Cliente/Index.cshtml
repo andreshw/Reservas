@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Reservas.Web.Models.Cliente>
+﻿@model IEnumerable<Reservas.RepositorioDBF.Clientes>
 
 @{
     ViewBag.Title = "Index";
@@ -9,7 +9,7 @@
 
 <p>
 
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Create New", "CrearCliente")
 </p>
 <table class="table">
     <tr>
@@ -20,7 +20,7 @@
             @Html.DisplayNameFor(model => model.Ciudad)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Calificacion)
+            @Html.DisplayNameFor(model => model.Califcacion)
         </th>
         <th></th>
     </tr>
@@ -34,7 +34,7 @@
             @Html.DisplayFor(modelItem => item.Ciudad)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Calificacion)
+            @Html.DisplayFor(modelItem => item.Califcacion)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

@@ -108,3 +108,5 @@ E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web\bin\Microsof
 E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web\bin\Microsoft.Owin.Security.Twitter.xml
 E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web\obj\Debug\Reservas.Web.pdb
+E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web\bin\Reservas.RepositorioDBF.dll
+E:\PracticasEnfasis2015I\Reservas (GitHub for Windows)\Reservas.Web\bin\Reservas.RepositorioDBF.pdb

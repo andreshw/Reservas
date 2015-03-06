@@ -192,7 +192,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -233,7 +235,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Reservas.RepositorioDBF\Reservas.RepositorioDBF.csproj">
-      <Project>{2d014313-33fd-4eb1-9486-bf53dfcab270}</Project>
+      <Project>{1932f20e-bbd9-4fb5-8b5e-0b762f118650}</Project>
       <Name>Reservas.RepositorioDBF</Name>
     </ProjectReference>
   </ItemGroup>

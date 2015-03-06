@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2D014313-33FD-4EB1-9486-BF53DFCAB270}</ProjectGuid>
+    <ProjectGuid>{1932F20E-BBD9-4FB5-8B5E-0B762F118650}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Reservas.RepositorioDBF</RootNamespace>
@@ -48,7 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClienteRepositorio.cs" />
     <Compile Include="Clientes.cs">
+      <DependentUpon>ReservasModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Habitaciones.cs">
       <DependentUpon>ReservasModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
